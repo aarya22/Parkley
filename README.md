@@ -1,2 +1,2 @@
-# Parkley Project for INFO 340-B
+# Parkley Project for INFO 340
 Database for Parkley 
