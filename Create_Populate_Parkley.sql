@@ -240,20 +240,21 @@ EXEC register_driveway 'White House', 'Washington DC', 'PA', 1, 200.00, '12:00:0
 EXEC register_driveway 'Beach Way', 'Honolulu', 'PA', 1, 200.00, '12:00:00', '16:00:00', 'Barack', 'Obama';
 
 -- Create Bookings
-EXEC make_booking '11:00:00', '12:00:00', '2017-10-30', 'Aman', 'Arya', 1, 63;
-EXEC make_booking '13:00:00', '15:00:00', '2017-11-03', 'Aman', 'Arya', 1, 64;
-EXEC make_booking '09:00:00', '18:00:00', '2017-11-05', 'John', 'Jones', 1, 65;
+EXEC make_booking '11:00:00', '12:00:00', '2017-10-30', 'Aman', 'Arya', 4, 63;
+EXEC make_booking '13:00:00', '15:00:00', '2017-11-03', 'Aman', 'Arya', 3, 64;
+EXEC make_booking '09:00:00', '18:00:00', '2017-11-05', 'John', 'Jones', 2, 65;
 EXEC make_booking '12:00:00', '20:00:00', '2017-11-05', 'Bob', 'Bones', 1, 66;
-EXEC make_booking '13:00:00', '15:00:00', '2017-11-05', 'Robert', 'Rows', 1, 67;
-EXEC make_booking '01:00:00', '15:00:00', '2017-11-04', 'Leandro', 'Solidum', 1, 68;
-EXEC make_booking '07:00:00', '16:00:00', '2017-11-02', 'Robert', 'Rows', 1, 69;
-EXEC make_booking '13:00:00', '15:00:00', '2017-11-05', 'Paul', 'Allen', 1, 70;
-EXEC make_booking '13:00:00', '15:00:00', '2017-11-01', 'Paul', 'Allen', 1, 71;
-EXEC make_booking '13:00:00', '15:00:00', '2017-11-02', 'Paul', 'Allen', 1, 72;
-EXEC make_booking '13:00:00', '15:00:00', '2017-11-03', 'Paul', 'Allen', 1, 73;
-EXEC make_booking '13:00:00', '15:00:00', '2017-11-04', 'Paul', 'Allen', 1, 74;
+EXEC make_booking '13:00:00', '15:00:00', '2017-11-05', 'Robert', 'Rows', 10, 67;
+EXEC make_booking '01:00:00', '15:00:00', '2017-11-04', 'Leandro', 'Solidum', 2, 68;
+EXEC make_booking '07:00:00', '16:00:00', '2017-11-02', 'Robert', 'Rows', 2, 69;
+EXEC make_booking '13:00:00', '15:00:00', '2017-11-05', 'Paul', 'Allen', 11, 70;
+EXEC make_booking '13:00:00', '15:00:00', '2017-11-01', 'Paul', 'Allen', 23, 71;
+EXEC make_booking '13:00:00', '15:00:00', '2017-11-02', 'Paul', 'Allen', 5, 72;
+EXEC make_booking '13:00:00', '15:00:00', '2017-11-03', 'Paul', 'Allen', 40, 73;
+EXEC make_booking '13:00:00', '15:00:00', '2017-11-04', 'Paul', 'Allen', 4, 74;
 EXEC make_booking '13:00:00', '15:00:00', '2017-11-05', 'Paul', 'Allen', 1, 75;
 EXEC make_booking '13:00:00', '15:00:00', '2017-11-06', 'Paul', 'Allen', 1, 76;
+EXEC make_booking '13:00:00', '18:00:00', '2017-11-07', 'Paul', 'Allen', 1, 76;
 
 
 -- Delete rows
